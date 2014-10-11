@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MATHS quota-status
+Comment=Run MATHS quota-status
+TryExec=/alt/applic/quota-status/quota.py
+Exec=/alt/applic/quota-status/quota.py
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=
