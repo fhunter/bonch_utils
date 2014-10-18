@@ -154,7 +154,7 @@ class Quota:
                 
             ttl = self.tip
         
-            text = "Maths Quota usage\n%s (%s) used\n%s (%s) free\n%s total" %(strSize(used), strPerc(percent,pw), strSize(free), strPerc(freepercent,pw), strSize(total))
+            text = u"Maths Quota usage\n%s (%s) used\n%s (%s) free\n%s total" %(strSize(used), strPerc(percent,pw), strSize(free), strPerc(freepercent,pw), strSize(total))
         else:
             text = "Unable to read quota "+quotaInfo[3]
 
